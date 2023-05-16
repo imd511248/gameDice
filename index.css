@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 50px 0 25px 200px;
+    width: 1140px;
+    border: 1px solid darkkhaki;
+    background-color: darkkhaki;
+    height: 400px;
+    border: 2px solid red;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.dice {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid red;
+    border-radius: 10px;
+}
+
+.heading {
+    font-size: 45px;
+    font-family: system-ui;
+    background-color: aqua;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-bottom: 15px;
+}
+
+.dice img {
+    width: 100%;
+    height: 100%;
+}
+
+.dice-parent {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.twin {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftSide {
+    width: 50%;
+    height: 337px;
+    background-color: #748bb1;
+    position: relative;
+}
+
+.rightSide {
+    width: 50%;
+    height: 337px;
+    background-color: rgb(148 160 120);
+    position: relative;
+}
+.player1{
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+}
+.left-div{
+    position: absolute;
+    width: 180px;
+    height: 75px;
+    background-color: black;
+    color: whitesmoke;
+    bottom: 40px;
+    left: 170px;
+    text-align: center;
+    border-radius: 25px;
+}
+.right-div{
+    position: absolute;
+    width: 180px;
+    height: 75px;
+    background-color: black;
+    color: whitesmoke;
+    bottom: 40px;
+    right: 170px;
+    text-align: center;
+    border-radius: 25px;
+}
+.btn-prnt{
+    position: relative;
+}
+.button1{
+    position: absolute;
+    bottom: 90px;
+    left: 43%;
+    font-size: 20px;
+    background-color: aquamarine;
+    border: 2px solid green;
+    padding: 10px 33px;
+    border-radius: 14px;
+}
+.button2{
+    position: absolute;
+    bottom: 36px;
+    left: 45%;
+    font-size: 21px;
+    padding: 7px 26px;
+    border-radius: 22px;
+    border: 2px solid green;
+    background-color: aquamarine;
+}
+.solidfa{
+    position: absolute;
+    bottom: 140px;
+    left: 46%;
+    font-size: 103px;
+    list-style: none;
+    color: yellow;
+}
+.nw_game{
+    position: absolute;
+    bottom: 290px;
+    font-size: 17px;
+    font-family: cursive;
+    border: 1px solid greenyellow;
+    background: lightgrey;
+    left: 44%;
+    padding: 5px 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 8px;
+}
+.spn1{
+    position: absolute;
+    left: 40%;
+    top: 108px;
+    font-size: 40px;
+    color: red;
+    letter-spacing: 10px;
+}
+.spn2{
+    position: absolute;
+    right: 40%;
+    top: 108px;
+    font-size: 40px;
+    color: red;
+    letter-spacing: 10px;
+}
+
+@media screen and (min-width:320px) and (max-width:480px){
+    
+.container{
+    width: 100%!important;
+    margin: auto;
+}
+.header{
+    width: 100%;
+}
+.heading{
+    width: 100%;
+}
+.twin{
+    width: 100%;
+}
+.leftSide{
+    width: 50%;
+}
+.nw_game{
+    bottom: 304px;
+    left: 29%;
+    font-size: 14px;
+}
+.rightSide{
+    width: 50%;
+}
+.spn1{
+    font-size: 30px;
+    letter-spacing: 5px;
+    left:30%;
+    top: 81px;
+}
+.spn2{
+    font-size: 30px;
+    letter-spacing: 5px;
+    right: 30%;
+    top: 81px;
+}
+.solidfa{
+    font-size: 60px;
+    left: 42%;
+    top: -240px;
+}
+.right-div{
+    font-size: 8px;
+    font-family: monospace;
+    letter-spacing: 5px;
+    width: 111px;
+    height: 46px;
+    padding-top: 5px;
+    right: 18%;
+    bottom: 135px;
+}
+.left-div{
+    font-size: 8px;
+    font-family: monospace;
+    letter-spacing: 5px;
+    width: 111px;
+    height: 46px;
+    padding-top: 5px;
+    left: 18%;
+    bottom: 135px;
+    z-index: 1;
+}
+.button1{
+    width: 180px;
+    height: 50px;
+    left: 22%;
+    bottom: 70px;
+}
+.button2{
+    bottom: 20px;
+    left: 27%;
+}
+
+
+
+}
